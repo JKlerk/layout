@@ -1,14 +1,9 @@
 body{
-    background-image: url("../img/Witcherr.png");
+    background-image: url("../img/color2.png");
     font-family: sans-serif;
     color: #FFFFFF;
     text-shadow: 1px 0px #000000;
-    background-color: black;
     margin: 0px;
-}
-
-p{
-    width: 500px;
 }
 
 a{
@@ -16,12 +11,17 @@ a{
     color: white;
 }   
 
-
-.h1{
-    display: flex;
-    justify-content: center;
+.Home{
+    background-image: url("../img/Blue-77.png");
+    color: white;
+    text-shadow: 1px 1px black;
+    height: 60px;
+    width: 1920px;
+    background-size: cover;
+    font-size: 48px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
     margin: 0px;
-    padding: 0px;
 }
 
 #w3{
@@ -45,9 +45,7 @@ a{
 }
 
 #h1w3{
-    background-image: -webkit-linear-gradient(top, rgba(255, 0, 0, 0.5), black);
-    background-image: -moz-linear-gradient(top, rgba(255, 0, 0, 0.5), black);
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), black);
+    background-image: url("../img/red-1.jpg");
     color: rgba(255, 255, 255, 0.9);
     padding: 5px;
     font-size: 28px;
@@ -71,7 +69,7 @@ a{
 section.w3page{
     color: rgb(255, 255, 255);
     background: url(https://static.cdprojektred.com/thewitcher.com/gfx/news_block_bg2.png) 0px 0px no-repeat;
-    background-color: #0d0d0d;
+    background-color: rgba(13, 13, 13, 0.4);
     width: 640px;
     height: 874px;
     border-color: rgba(255, 255, 255, 0.3);
@@ -87,7 +85,7 @@ section.w3page{
 
 #csimg{
     position: absolute;
-    top: 400px;
+    top: 396px;
     right: 83px;
     width: 382px;
     height: 202px;
@@ -101,39 +99,72 @@ section.w3page{
 }
 
 section.cspage{
+    display: flex;
     background: url(http://media.steampowered.com/apps/csgo/blog/images/contentBkndTexture.jpg);
-    width: 640px;
-    height: 874px;
-    background-repeat: no-repeat;
+    width: 940px;
+    height: 990px;
     border-color: rgba(255, 255, 255, 0.3);
     border-style: outset;
-    display: flex;
     margin-left: 650px;
 }
 
-.cstext{
-    padding: 20px;
-}
-
 #cstext{
-    padding-left: 70px;
+    padding-left: 40px;
+    width: 520px;
 }
 
 #csh3{
-    padding-left: 70px;
+    padding-left: 40px;
 }
 
 #h1cs{
-    background-image: -webkit-linear-gradient(top,  rgba(255, 145, 0, 0.9), black);
-    background-image: -moz-linear-gradient(top, rgba(255, 145, 0, 0.9), black);
-    background-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.9), black);
+    background-image: url("../img/color5.png");
     font-size: 28px;
     padding: 5px;
     width: 415px;
     text-align: center;
-    margin-left: 75px;
+    margin-left: 40px;
 }
 
+#cshydra{
+    width: 520px;
+    height: 525px;
+    margin-left: 40px;
+    opacity: 0.5;
+    border: 2px outset rgba(255, 255, 255, 0.3);
+}
+
+#csmediamarkt{
+    position: absolute;
+    top: 860px;
+    right: 320px;
+    width: 320px;
+    height: 210px
+}
+
+#csbol{
+    position: absolute;
+    top: 230px;
+    right: 320px;
+    width: 320px;
+    height: 210px
+}
+
+#csg2a{
+    position: absolute;
+    top: 650px;
+    right: 320px;
+    width: 320px;
+    height: 210px;
+}
+
+#csking{
+    position: absolute;
+    top: 440px;
+    right: 320px;
+    width: 320px;
+    height: 210px
+}
 #pubg{
     position: absolute;
     top: 322px;
@@ -154,13 +185,21 @@ section.cspage{
     padding: 5px;
 }
 
-.Home{
-    background-color: rgba(51, 51, 51, 0.38);
-    height: 60px;
-    width: 1920px;
-    background-size: cover;
-    font-size: 48px;
-    text-align: center;
+.pubg{
+    margin-left: 470px;
+}
+
+#pubgimg2{
+    width: 960px;
+    height: 600px;
+}
+
+#pubgtext{
+    width: 990px;
+}
+
+#pubgup{
+    padding-top: 40px;
 }
 
 #jaar{
@@ -197,10 +236,10 @@ section.cspage{
 
 .Bar ul{
     list-style-type: none;
-    margin-left: 0%;
+    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url("../img/OrangeBlack-2.png");
+    background-image: url("../img/Blue-7.png");
 }
 
 .Bar li{
@@ -219,4 +258,8 @@ section.cspage{
 
 .Bar li a:hover {
     color: rgb(169, 213, 212);
+}
+
+i{
+    padding-left: 5px;
 }
