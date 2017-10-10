@@ -12,7 +12,6 @@ a{
 }   
 
 .Home{
-    background-image: url("../img/Blue-77.png");
     color: white;
     text-shadow: 1px 1px black;
     height: 60px;
@@ -20,50 +19,38 @@ a{
     background-size: cover;
     font-size: 48px;
     text-align: center;
-    padding: 30px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     margin: 0px;
 }
 
-#w3{
-    position: absolute;
-    top: 336px;
-    left: 222px;
+section.bf{
+    
+    left: 20px;
+    top: 240px;
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 480px;
+    height: 650px;
+    padding: 0px 0px 0px 50px;
 }
 
-#w3img{
-    height: 210px;
-    width: 371.6px;
-    position: absolute;
-    left: 90px;
-    top: 396px;
-    padding: 0px;
-    margin: 0px;
+section.du{
+    
+    left: 700px;
+    top: 240px;
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 480px;
+    height: 650px;
+    padding: 0px 0px 0px 50px;
 }
 
-.w3text{
-    padding: 48px;
-}
-
-#h1w3{
-    background-image: url("../img/red-1.jpg");
-    color: rgba(255, 255, 255, 0.9);
-    padding: 5px;
-    font-size: 28px;
-    width: 320px;
-}
-
-#w3p{
-    position: absolute;
-    left: 90px;
-    top: 595px;
-    width: 388px;
-}
-
-#wbw{
-    position: absolute;
-    left: 850px;
-    top: 287px;
-    width: 800px;
+section.ow{
+    
+    right: 20px;
+    top: 240px;
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 480px;
+    height: 650px;
+    padding: 0px 0px 0px 50px;
 }
 
 section.w3page{
@@ -71,31 +58,11 @@ section.w3page{
     background: url(https://static.cdprojektred.com/thewitcher.com/gfx/news_block_bg2.png) 0px 0px no-repeat;
     background-color: rgba(13, 13, 13, 0.4);
     width: 640px;
-    height: 874px;
+    height: 860px;
     border-color: rgba(255, 255, 255, 0.3);
     border-style: outset;
     display: flex;
-}
-
-#cs{
-   position: absolute;
-   top: 335px;
-   right: 196px;
-}
-
-#csimg{
-    position: absolute;
-    top: 396px;
-    right: 83px;
-    width: 382px;
-    height: 202px;
-}
-
-#csp{
-    position: absolute;
-    top: 593px;
-    right: 64px;
-    width: 400px;   
+    padding-left: 10px;
 }
 
 section.cspage{
@@ -108,34 +75,160 @@ section.cspage{
     margin-left: 650px;
 }
 
-#cstext{
-    padding-left: 40px;
-    width: 520px;
-}
-
-#csh3{
-    padding-left: 40px;
-}
-
-#h1cs{
-    background-image: url("../img/color5.png");
-    font-size: 28px;
-    padding: 5px;
-    width: 415px;
+h1.gtah{
+    color: white;
+    text-shadow: 1px 1px black;
+    height: 60px;
+    width: 1920px;
+    background-size: cover;
+    font-size: 48px;
     text-align: center;
-    margin-left: 40px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px;
 }
 
-#cshydra{
+div.wrapper{
+    margin: 55px 0px 0px 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 420px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    order: 2;
+    padding: 0px 10px 30px 10px;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+div.wrappernieuws{
+    margin: 55px 0px 0px 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.n{
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 420px;
+    margin-bottom: 24px;
+    margin-left: 135px;
+    order: 2;
+    padding: 0px 10px 30px 10px;
+}
+
+div.wrappergta{
+    margin: 30px 0px 0px 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.g img{
+    width: 600px;
+    height: 400px;
+}
+
+article.g{
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 610px;
+    margin-bottom: 24px;
+    margin-left: 590px;
+    order: 2;
+    padding: 0px 10px 30px 10px;
+}
+
+div.wrapperwitcher{
+    margin: 30px 0px 0px 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.w img{
+    width: 600px;
+    height: 400px;
+}
+
+article.w{
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 610px;
+    margin-bottom: 24px;
+    margin-left: 590px;
+    order: 2;
+    padding: 0px 10px 30px 10px;
+}
+
+article.w h2{
+    background-image: url("../img/red-1.jpg");
+    color: rgba(255, 255, 255, 0.9);    
+    font-size: 28px;
+    width: 320px;
+    padding: 10px 10px 5px 10px;
+    margin: 5px 5px 5px 120px;
+}
+
+div.wrappercs{
+    margin: 30px 0px 0px 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.cs img{
     width: 520px;
     height: 525px;
     margin-left: 40px;
-    opacity: 0.5;
-    border: 2px outset rgba(255, 255, 255, 0.3);
+}
+
+article.cs{
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 610px;
+    margin-bottom: 24px;
+    margin-left: 640px;
+    order: 2;
+    padding: 0px 10px 30px 10px;
+}
+
+article.cs h2{
+    margin-left: 115px;
+}
+
+article.cs h3{
+    margin-left: 115px;
+}
+
+
+div.wrapperpubg{
+    margin: 30px 0px 0px 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article.p img{
+    width: 800px;
+    height: 440px;
+}
+
+article.p{
+    background-color: rgba(13, 13, 13, 0.4);
+    width: 800px;
+    margin-bottom: 24px;
+    margin-left: 490px;
+    order: 2;
+    padding: 0px 10px 30px 10px;
 }
 
 #csmediamarkt{
-    position: absolute;
+    
     top: 860px;
     right: 320px;
     width: 320px;
@@ -143,7 +236,7 @@ section.cspage{
 }
 
 #csbol{
-    position: absolute;
+    
     top: 230px;
     right: 320px;
     width: 320px;
@@ -151,7 +244,7 @@ section.cspage{
 }
 
 #csg2a{
-    position: absolute;
+    
     top: 650px;
     right: 320px;
     width: 320px;
@@ -159,51 +252,15 @@ section.cspage{
 }
 
 #csking{
-    position: absolute;
+    
     top: 440px;
     right: 320px;
     width: 320px;
     height: 210px
 }
-#pubg{
-    position: absolute;
-    top: 322px;
-    left: 874px;
-}
-
-#pubgimg{
-    position: absolute;
-    top: 380px;
-    left: 730px;
-}
-
-#pubgp{
-    position: absolute;
-    top: 587px;
-    left: 728px;
-    width: 484px;
-    padding: 5px;
-}
-
-.pubg{
-    margin-left: 470px;
-}
-
-#pubgimg2{
-    width: 960px;
-    height: 600px;
-}
-
-#pubgtext{
-    width: 990px;
-}
-
-#pubgup{
-    padding-top: 40px;
-}
 
 #jaar{
-    position: absolute;
+    
     bottom: 20px;
     right: 20px;
     height: 120px;
@@ -211,7 +268,7 @@ section.cspage{
 }
 
 #g2a{
-    position: absolute;
+    
     bottom: 20px;
     right: 1220px;
     height: 120px;
@@ -219,7 +276,7 @@ section.cspage{
 }
 
 #king{
-    position: absolute;
+    
     bottom: 20px;
     right: 1575px;
     height: 120px;
@@ -227,7 +284,7 @@ section.cspage{
 }
 
 #bol{
-    position: absolute;
+    
     bottom: 20px;
     right: 276px;
     height: 120px;
