@@ -117,11 +117,21 @@ div.wrappernieuws{
 
 article.n{
     background-color: rgba(13, 13, 13, 0.4);
-    width: 420px;
+    width: 400px;
     margin-bottom: 24px;
-    margin-left: 135px;
+    margin-left: 67px;
     order: 2;
-    padding: 0px 10px 30px 10px;
+    padding: 0px 50px 30px 50px;
+}
+
+article.n h2{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+article.n h3{
+    padding: 0px;
+    margin-top: 0px;
 }
 
 div.wrappergta{
